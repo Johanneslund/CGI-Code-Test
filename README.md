@@ -1,27 +1,7 @@
 # CGICodeTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
+# Hur man startar
+Börja med att öppna själva api:n i visual studio (finns här på github med namnet CGI-Back-End). Sedan är det bara att starta projektet direkt via visual studio.
+Ett fönster öppnas, och en tjänst vid namn swagger visas. Det är enbart en tjänst för att testa alla endpoints, så låt den bara vara öppen.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Öppna sedan nästa projekt (CGI-Code-Test) med visual code. Där finns front-enddelen som är skriven i Angular. Starta sedan med ng serve --open så bör en startsida med korten visas. Angular körs på localhost:4200 och api:et går via localhost:44376.
