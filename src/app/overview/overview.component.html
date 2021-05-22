@@ -1,0 +1,29 @@
+<table class="row">
+    <tbody>
+        <div class="box-wrap">
+            <div *ngFor="let card of cards">
+                <div class="card bg d-flex col-sm-2">
+
+                    <h1>
+                        {{card.name}} {{card.surName}}
+                    </h1>
+                    <h2>
+                        {{card.telephone}}
+                    </h2>
+                    <h2>
+                        {{card.email}}
+                    </h2>
+                </div>
+
+                <button class="btn btn-lg btn-secondary bg-danger" (click)="deleteCard(card)">
+                    Ta bort
+                </button>
+
+                <a class="btn btn-lg btn-secondary bg-primary" routerLink="/update/{{card.id}}">Ändra</a>
+            </div>
+
+        </div>
+    </tbody>
+</table>
+
+<a class="btn btn-lg btn-secondary bg-success" routerLink="/add">Lägg till kort</a>

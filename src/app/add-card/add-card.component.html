@@ -1,0 +1,23 @@
+<div>
+
+    <h2>Lägg till kort</h2>
+
+    <p>Förnamn: <input #name></p>
+
+    <p>Efternamn: <input #surName></p>
+
+    <p>E-post: <input #email></p>
+
+    <p>Telefonnummer: <input #telephone></p>
+
+    <p>Bild: <input #image></p>
+
+
+    <button class="btn btn-lg btn-secondary bg-success"
+        (click)="addCard(name.value, surName.value, email.value, telephone.value, image.value)">
+        Lägg till
+    </button>
+
+
+
+</div>

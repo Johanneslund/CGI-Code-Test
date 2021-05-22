@@ -1,0 +1,17 @@
+<h2>Ändra</h2>
+
+<p>Förnamn: <input #name value="{{card.name}}"></p>
+
+<p>Efternamn: <input #surName value="{{card.surName}}"></p>
+
+<p>E-post: <input #email value="{{card.email}}"></p>
+
+<p>Telefonnummer: <input #telephone value="{{card.telephone}}"></p>
+
+<p>Bild: <input #image value="{{card.image}}"></p>
+
+
+<button class="btn btn-lg btn-secondary bg-success"
+    (click)="updateCard(name.value, surName.value, email.value, telephone.value, image.value)">
+    Ändra
+</button>

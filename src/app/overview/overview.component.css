@@ -1,0 +1,7 @@
+.card 
+{
+    perspective: 150rem;
+    height: 10rem;
+    width: 30rem;
+    background-color: #e0e0e0;
+}
